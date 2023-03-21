@@ -11,4 +11,10 @@ void _putchar(char c);
 void print_alphabet(void);
 
 #endif
-
+ 
+#ifndef _PRINT_ALPHABET_X10_H
+#define _PRINT_ALPHABET_X10_H
+  
+void print_alphabet_x10(void);
+  
+#endif
