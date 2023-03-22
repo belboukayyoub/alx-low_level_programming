@@ -46,3 +46,6 @@ int print_sign(int n);
 int _abs(int);
 
 #endif
+
+
+int print_last_digit(int);
