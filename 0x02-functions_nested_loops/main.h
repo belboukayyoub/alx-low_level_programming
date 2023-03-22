@@ -33,4 +33,9 @@ int _isalpha(int c);
 
 #endif
 
+#ifndef _PRINT_SIGN_H
+#define _PRINT_SIGN_H
 
+int print_sign(int n);
+
+#endif
