@@ -81,3 +81,11 @@ void print_square(int size);
 void print_triangle(int size);
 
 #endif
+
+
+#ifndef _PRINT_NUMBER_H
+#define _PRINT_NUMBER_H
+
+void print_number(int n);
+
+#endif
