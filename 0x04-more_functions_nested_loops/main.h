@@ -18,3 +18,18 @@ int _isdigit(int c);
 int mul(int a, int b);
 
 #endif
+
+#ifndef _PRINT_NUMBERS_H
+#define _PRINT_NUMBERS_H
+
+void print_numbers(void);
+
+#endif
+
+#ifndef _PUTCHAR_H
+#define _PUTCHAR_H
+
+void _putchar(char c);
+
+#endif
+
