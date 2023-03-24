@@ -51,4 +51,10 @@ void more_numbers(void);
 #endif
 
 
+#ifndef _PRINT_LINE_H
+#define _PRINT_LINE_H
+
+void print_line(int n);
+
+#endif
 
