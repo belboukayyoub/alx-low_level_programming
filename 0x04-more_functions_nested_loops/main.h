@@ -66,3 +66,13 @@ void print_diagonal(int n);
 
 #endif
 
+#ifndef _PRINT_SQUARE_H
+#define _PRINT_SQUARE_H
+
+void print_square(int size);
+
+#endif
+
+
+
+
