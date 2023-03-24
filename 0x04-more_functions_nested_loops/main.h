@@ -33,3 +33,11 @@ void _putchar(char c);
 
 #endif
 
+
+
+#ifndef _PRINT_MOST_NUMBERS_H
+#define _PRINT_MOST_NUMBERS_H
+
+void print_most_numbers(void);
+
+#endif
