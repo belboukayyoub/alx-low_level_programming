@@ -75,4 +75,9 @@ void print_square(int size);
 
 
 
+#ifndef _PRINT_TRIANGEL_H
+#define _PRINT_TRIANGEL_H
 
+void print_triangle(int size);
+
+#endif
