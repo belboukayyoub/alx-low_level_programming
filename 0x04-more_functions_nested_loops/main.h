@@ -41,3 +41,14 @@ void _putchar(char c);
 void print_most_numbers(void);
 
 #endif
+
+
+#ifndef _MORE_NUMBERS_H
+#define _MORE_NUMBERS_H
+
+void more_numbers(void);
+
+#endif
+
+
+
