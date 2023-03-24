@@ -58,3 +58,11 @@ void print_line(int n);
 
 #endif
 
+
+#ifndef _PRINT_DIAGONAL_H
+#define _PRINT_DIAGONAL_H
+
+void print_diagonal(int n);
+
+#endif
+
