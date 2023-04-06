@@ -8,12 +8,12 @@
  *
  * Return: the natural square root of @n
  */
-int calcul_sqr(int n,int b)
+int calcul_sqr(int n, int b)
 {
 	if (b * b == n)
-		return(b);
-	
-	if(b * b > n)
+		return (b);
+
+	if (b * b > n)
 		return (-1);
 
 	return (calcul_sqr(n, b + 1));
