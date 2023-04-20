@@ -26,7 +26,11 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 	for (i = 0; i < number_of_bytes; i++)
-		printf("%02x ", (unsigned char)opcodes[i]);
+	{
+		printf("%02x", (unsigned char)opcodes[i]);
+		if (i < number_of_bytes - 1)
+			printf(" ");
+	}
 	printf("\n");
 	return (0);
 }
