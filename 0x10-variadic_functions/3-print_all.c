@@ -83,11 +83,12 @@ void print_all(const char * const format, ...)
 			j++;
 		if (j < 4)
 		{
-			printf("%s",s);
+			printf("%s", s);
 			functions[j].function(args);
 			s = ", ";
 		}
 		i++;
 	}
+	va_end(args);
 	printf("\n");
 }

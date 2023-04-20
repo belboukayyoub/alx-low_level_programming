@@ -13,13 +13,12 @@ void print_all(const char * const format, ...);
 
 #include <stdarg.h>
 /**
- * print_function - mapping format with function
+ * struct print_function - mapping format with function
  *
  * @format: char * input
  * @function: a pointer to function
  *
  */
-
 typedef struct print_function
 {
 	char *format;
